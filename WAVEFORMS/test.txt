@@ -1,0 +1,27 @@
+addi r1, r1 ,1
+addi r2,r2, 2
+add r3,  r2, r1
+sub r4, r3, r2
+li r1, x"ffff"
+lui r2, x"ffff"
+and r3, r2, r1
+or r3, r2, r1
+not r3, r2, r7
+nand r3, r2, r1
+nor r3, r2, r1
+sra r3, r2, r8
+srl r3, r1, r9
+sll r3, r1, r10
+rol r3, r2, r10
+ror r3, r2, r10
+b x"0001"
+beq r1, r2, x"0002"
+beq r1, r1, x"0002"
+bne r1, r1, x"0003"
+bne r1, r2, x"0003"
+sw r0, r2, x"0004"
+sb r0, r2, x"0005"
+lw r0, r3, x"0004"
+lb r0, r4, x"0005"
+nandi r1, r4, x"0000"
+ori r2 r4 x"00ff"

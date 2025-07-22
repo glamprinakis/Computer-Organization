@@ -1,0 +1,15 @@
+li r1 x"0001"
+li r2 x"0002"
+sw r1 ,4(r0)
+sw r2, 8(r0)
+lw r3, 4(r0)
+lw r4, 8(r0)
+add r5, r3, r4
+add r5, r3, r5
+add r5, r5, r3
+sw r5,12(r0)
+lw r1,12(r0)
+add r2, r1, r1
+li r1,  x"fffb" (-5) 
+add r2, r2, r1
+add r3, r2, r4

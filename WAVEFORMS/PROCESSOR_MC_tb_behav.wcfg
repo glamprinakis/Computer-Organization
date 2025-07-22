@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="PROCESSOR_MC_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="PROCESSOR_MC_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2782350fs"></ZoomStartTime>
+      <ZoomEndTime time="4336827fs"></ZoomEndTime>
+      <Cursor1Time time="3560000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="156"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="32" />
+   <wvobject fp_name="/PROCESSOR_MC_tb/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/t_MM_RdData" type="array">
+      <obj_property name="ElementShortName">t_MM_RdData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_MM_RdData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/PC_sel" type="logic">
+      <obj_property name="ElementShortName">PC_sel</obj_property>
+      <obj_property name="ObjectShortName">PC_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/t_PC" type="array">
+      <obj_property name="ElementShortName">t_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_PC[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/t_instr" type="array">
+      <obj_property name="ElementShortName">t_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_instr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/instr_out" type="array">
+      <obj_property name="ElementShortName">instr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/t_immed" type="array">
+      <obj_property name="ElementShortName">t_immed[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_immed[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/t_immed_out" type="array">
+      <obj_property name="ElementShortName">t_immed_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_immed_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/MEM/Mem_WrEn" type="logic">
+      <obj_property name="ElementShortName">Mem_WrEn</obj_property>
+      <obj_property name="ObjectShortName">Mem_WrEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/t_MM_WrEn" type="logic">
+      <obj_property name="ElementShortName">t_MM_WrEn</obj_property>
+      <obj_property name="ObjectShortName">t_MM_WrEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/t_RF_A_OUT" type="array">
+      <obj_property name="ElementShortName">t_RF_A_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_RF_A_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/t_RF_B_OUT" type="array">
+      <obj_property name="ElementShortName">t_RF_B_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_RF_B_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/t_ALU" type="array">
+      <obj_property name="ElementShortName">t_ALU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_ALU[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/CON/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/t_ALU_out" type="array">
+      <obj_property name="ElementShortName">t_ALU_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_ALU_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#E0FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/t_MM_WrData" type="array">
+      <obj_property name="ElementShortName">t_MM_WrData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_MM_WrData[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/t_WRDATA" type="array">
+      <obj_property name="ElementShortName">t_WRDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_WRDATA[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/t_MM_Addr" type="array">
+      <obj_property name="ElementShortName">t_MM_Addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_MM_Addr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFD700</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/t_MEM_out" type="array">
+      <obj_property name="ElementShortName">t_MEM_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_MEM_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/t_RDDATA" type="array">
+      <obj_property name="ElementShortName">t_RDDATA[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_RDDATA[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/DEC/RF/Ard1" type="array">
+      <obj_property name="ElementShortName">Ard1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Ard1[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/DEC/RF/Ard2" type="array">
+      <obj_property name="ElementShortName">Ard2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Ard2[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/DEC/RF/Awr" type="array">
+      <obj_property name="ElementShortName">Awr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Awr[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/DEC/RF/output[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/DEC/RF/output[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/DEC/RF/output[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/DEC/RF/output[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/DEC/RF/output[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/DEC/RF/output[10]" type="array">
+      <obj_property name="ElementShortName">[10][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/DATA/DEC/RF/output[16]" type="array">
+      <obj_property name="ElementShortName">[16][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_MC_tb/uut/CON/state" type="other">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+</wave_config>

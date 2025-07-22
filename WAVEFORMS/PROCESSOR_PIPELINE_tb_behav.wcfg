@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="PROCESSOR_PIPELINE_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="PROCESSOR_PIPELINE_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="543150fs"></ZoomStartTime>
+      <ZoomEndTime time="1375151fs"></ZoomEndTime>
+      <Cursor1Time time="1110000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="154"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="37" />
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/RESET" type="logic">
+      <obj_property name="ElementShortName">RESET</obj_property>
+      <obj_property name="ObjectShortName">RESET</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/PC_sel" type="logic">
+      <obj_property name="ElementShortName">PC_sel</obj_property>
+      <obj_property name="ObjectShortName">PC_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/zero" type="logic">
+      <obj_property name="ElementShortName">zero</obj_property>
+      <obj_property name="ObjectShortName">zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/branch" type="array">
+      <obj_property name="ElementShortName">branch[1:0]</obj_property>
+      <obj_property name="ObjectShortName">branch[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/PC_LdEn" type="logic">
+      <obj_property name="ElementShortName">PC_LdEn</obj_property>
+      <obj_property name="ObjectShortName">PC_LdEn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/t_PC" type="array">
+      <obj_property name="ElementShortName">t_PC[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_PC[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#F0E68C</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/t_instr" type="array">
+      <obj_property name="ElementShortName">t_instr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_instr[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/instr_out" type="array">
+      <obj_property name="ElementShortName">instr_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/CONTROL/Control_sel" type="logic">
+      <obj_property name="ElementShortName">Control_sel</obj_property>
+      <obj_property name="ObjectShortName">Control_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/control_signals" type="array">
+      <obj_property name="ElementShortName">control_signals[14:0]</obj_property>
+      <obj_property name="ObjectShortName">control_signals[14:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/IDEX_control_signals" type="array">
+      <obj_property name="ElementShortName">IDEX_control_signals[14:0]</obj_property>
+      <obj_property name="ObjectShortName">IDEX_control_signals[14:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/EXMEM_control_signals" type="array">
+      <obj_property name="ElementShortName">EXMEM_control_signals[14:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_control_signals[14:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/MEMWB_control_signals" type="array">
+      <obj_property name="ElementShortName">MEMWB_control_signals[14:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMWB_control_signals[14:0]</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/forward_sel_A" type="array">
+      <obj_property name="ElementShortName">forward_sel_A[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_sel_A[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/t_A_OUT" type="array">
+      <obj_property name="ElementShortName">t_A_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_A_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/forward_sel_B" type="array">
+      <obj_property name="ElementShortName">forward_sel_B[1:0]</obj_property>
+      <obj_property name="ObjectShortName">forward_sel_B[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/t_B_OUT" type="array">
+      <obj_property name="ElementShortName">t_B_OUT[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_B_OUT[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/memory/data_din" type="array">
+      <obj_property name="ElementShortName">data_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/t_immed_out" type="array">
+      <obj_property name="ElementShortName">t_immed_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_immed_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FFA500</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/t_ALU" type="array">
+      <obj_property name="ElementShortName">t_ALU[31:0]</obj_property>
+      <obj_property name="ObjectShortName">t_ALU[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/EXMEM_ALU_out" type="array">
+      <obj_property name="ElementShortName">EXMEM_ALU_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">EXMEM_ALU_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/MEMWB_ALU_out" type="array">
+      <obj_property name="ElementShortName">MEMWB_ALU_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMWB_ALU_out[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/memory/data_dout" type="array">
+      <obj_property name="ElementShortName">data_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_dout[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/RF_WrData" type="array">
+      <obj_property name="ElementShortName">RF_WrData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RF_WrData[31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#A52A2A</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/memory/data_we" type="logic">
+      <obj_property name="ElementShortName">data_we</obj_property>
+      <obj_property name="ObjectShortName">data_we</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/memory/data_addr" type="array">
+      <obj_property name="ElementShortName">data_addr[10:0]</obj_property>
+      <obj_property name="ObjectShortName">data_addr[10:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="CustomSignalColor">#808000</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/DEC/RF/Ard1" type="array">
+      <obj_property name="ElementShortName">Ard1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Ard1[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/DEC/RF/Ard2" type="array">
+      <obj_property name="ElementShortName">Ard2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Ard2[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/DEC/RF/Awr" type="array">
+      <obj_property name="ElementShortName">Awr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">Awr[4:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/DEC/RF/output[1]" type="array">
+      <obj_property name="ElementShortName">[1][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[1][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/DEC/RF/output[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/DEC/RF/output[3]" type="array">
+      <obj_property name="ElementShortName">[3][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[3][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/DEC/RF/output[4]" type="array">
+      <obj_property name="ElementShortName">[4][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[4][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/DEC/RF/output[5]" type="array">
+      <obj_property name="ElementShortName">[5][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[5][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/DEC/RF/output[10]" type="array">
+      <obj_property name="ElementShortName">[10][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[10][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="/PROCESSOR_PIPELINE_tb/uut/DATAPATH/DEC/RF/output[16]" type="array">
+      <obj_property name="ElementShortName">[16][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[16][31:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+</wave_config>
